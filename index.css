@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+}
+@media (orientation: portrait) {
+    body{
+        background-color: aqua;
+    }
+}
+
+@media  screen and (min-width: 600px) {
+    body{
+        background-color: aqua;
+    }
+    
+}
